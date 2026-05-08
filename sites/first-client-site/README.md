@@ -28,3 +28,13 @@ npm run build
 ```bash
 npm run preview
 ```
+
+## Deploy
+
+1. Make sure your AWS CLI is installed and the `personal` profile is configured.
+2. Run the deploy script from the project directory:
+   ```bash
+   npm run deploy
+   ```
+
+This builds the app and syncs the generated `dist/` folder to the S3 bucket `first-client-site-568256616721`.
