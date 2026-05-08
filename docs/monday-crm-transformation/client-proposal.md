@@ -1,40 +1,48 @@
-# Client Proposal: Monday.com CRM Transformation
+# Proposal: Monday.com CRM Transformation
 
 ## Overview
 
-This project will design and implement a structured Monday.com CRM environment for managing sales activity, pipeline visibility, follow-up, and post-sale handoff.
+This project will turn Monday.com into a clearer, more reliable CRM workspace for managing leads, contacts, companies, deals, sales follow-up, and post-sale handoff.
 
-The project summary provided for this packet did not include client-specific details. Final scope, timeline, and pricing should be confirmed after discovery.
+The goal is not to add unnecessary complexity. The goal is to build a practical sales system the team can actually use: clear boards, clean fields, useful automations, and dashboards that help managers understand what is happening in the pipeline.
+
+Final scope, timing, and pricing should be confirmed after discovery, since client-specific sales stages, current tools, team roles, data volume, and reporting needs have not yet been provided.
 
 ## Goals
 
-- Create a clear CRM structure inside Monday.com.
-- Standardize lead, contact, company, deal, and activity tracking.
-- Improve sales follow-up visibility.
-- Reduce manual handoff work through practical automations.
-- Build dashboards for pipeline, sales activity, source performance, and forecast visibility.
-- Identify and configure priority integrations.
-- Prepare the team to use and maintain the system after launch.
+The CRM transformation will focus on:
+
+- Creating a clear CRM structure inside Monday.com.
+- Standardizing how leads, contacts, companies, deals, and sales activities are tracked.
+- Giving the sales team better visibility into follow-ups and next steps.
+- Giving leadership a cleaner view of pipeline health and sales activity.
+- Reducing manual coordination through practical automations.
+- Connecting priority tools where integrations are useful and available.
+- Preparing the team to use and maintain the system after launch.
 
 ## Proposed Scope
 
 ### CRM Architecture
 
-Design a connected-board CRM architecture covering:
+We will design a connected-board CRM structure that can support the sales process without forcing every workflow into one overloaded board.
+
+The recommended structure may include:
 
 - Leads.
 - Contacts.
-- Companies / accounts.
-- Deals / opportunities.
+- Companies or accounts.
+- Deals or opportunities.
 - Sales activities.
-- Client onboarding / handoff.
-- Optional nurture or lost pipeline tracking.
+- Client onboarding or handoff.
+- Optional nurture or lost-opportunity tracking.
+
+The final board structure will be confirmed after reviewing the client's actual sales process.
 
 ### Board And Field Configuration
 
-Configure Monday.com boards, columns, statuses, views, and relationships needed to support the sales workflow.
+We will configure the boards, columns, statuses, views, and relationships needed to support daily sales work and reliable reporting.
 
-Final fields will be confirmed through discovery. Recommended field categories include:
+Recommended field categories include:
 
 - Owner.
 - Source.
@@ -47,29 +55,37 @@ Final fields will be confirmed through discovery. Recommended field categories i
 - Loss reason.
 - Handoff details.
 
+Final fields will be confirmed through discovery so the CRM reflects the client's real workflow instead of a generic template.
+
 ### Automations
 
-Implement practical workflow automations, such as:
+We will build practical automations that reduce missed steps and manual coordination. Examples may include:
 
 - New lead assignment notifications.
 - Follow-up reminders.
 - Overdue follow-up alerts.
 - Proposal follow-up task creation.
-- Closed-won handoff creation.
-- Closed-lost loss reason workflow.
+- Closed-won handoff tasks.
+- Closed-lost reason capture.
+
+Automations will be tested before launch so the team understands what each one does and when it fires.
 
 ### Dashboards
 
-Build dashboards for:
+We will build dashboards around the metrics the client actually wants to manage. Potential dashboards include:
 
 - Executive pipeline overview.
 - Sales manager activity and follow-up.
 - Pipeline health.
 - Source and conversion reporting, if source data is available.
 
+Dashboard accuracy depends on consistent source data, so required fields and data hygiene rules will be part of the setup.
+
 ### Integrations
 
-Plan and configure priority integrations after tool access and requirements are confirmed. Potential integration categories include:
+We will identify and configure priority integrations after the client's tools, access, and requirements are confirmed.
+
+Potential integration categories include:
 
 - Website forms.
 - Email and calendar.
@@ -79,9 +95,11 @@ Plan and configure priority integrations after tool access and requirements are 
 - Accounting or invoicing tools.
 - Delivery or onboarding tools.
 
+Some integrations may depend on the client's Monday.com plan, third-party tool permissions, and available APIs.
+
 ### Data Migration
 
-If existing data needs to be migrated, the project can include:
+If existing data needs to be moved into Monday.com, the project can include:
 
 - Field mapping.
 - Import template creation.
@@ -90,18 +108,18 @@ If existing data needs to be migrated, the project can include:
 - Final import.
 - Validation after import.
 
-Data migration scope depends on source system, data volume, data quality, and duplicate cleanup requirements.
+Migration scope depends on the source system, data volume, data quality, and duplicate cleanup needs. A test import is recommended before any final migration.
 
 ### Training And Handoff
 
-Provide training and documentation so the team understands:
+We will provide training and handoff documentation so the team understands:
 
 - How to enter and update leads.
 - How to manage deals.
 - How to log or review sales activity.
 - How to use dashboards.
 - How key automations work.
-- How the admin should maintain the system.
+- How the internal admin should maintain the system.
 
 ## Assumptions
 
@@ -112,7 +130,7 @@ Provide training and documentation so the team understands:
 - The client will approve imported data mapping before migration.
 - External email automation will not be activated until copy, sending method, and compliance requirements are approved.
 
-## Items Requiring Confirmation
+## Items To Confirm During Discovery
 
 - Current sales process and pipeline stages.
 - Required CRM fields.
@@ -124,7 +142,7 @@ Provide training and documentation so the team understands:
 - Whether automated outbound email is required.
 - Timeline and launch expectations.
 
-## Proposed Phases
+## Project Phases
 
 | Phase | Description |
 | --- | --- |
@@ -140,13 +158,13 @@ Provide training and documentation so the team understands:
 
 ## Success Criteria
 
-- Sales team can clearly see and manage active leads and deals.
+- The sales team can clearly see and manage active leads and deals.
 - Every active lead and deal has an owner and next step.
-- Leadership can view pipeline status and follow-up health.
+- Leadership can view pipeline status, follow-up health, and key sales activity.
 - Closed-won deals reliably trigger the next internal handoff.
-- The team has a documented CRM structure they can maintain.
-- Client-specific dashboards reflect confirmed KPIs.
+- The team has a documented CRM structure it can maintain.
+- Dashboards reflect the KPIs confirmed during discovery.
 
 ## Recommended Next Step
 
-Schedule a CRM discovery session to confirm the workflow, data model, integrations, and reporting requirements before finalizing the build scope.
+The recommended next step is a CRM discovery session. In that session, we will confirm the sales workflow, data model, reporting needs, integrations, migration requirements, and launch expectations before finalizing the build scope.
